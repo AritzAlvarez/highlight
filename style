@@ -1,0 +1,25 @@
+/* NEEDED CLASSES TO FUNCTION WORKS ---------------------------------------------------------- */
+
+/* apply this class to all divs you want to be highlighted, JS need it to apply the effect, in this demo i apllied some transitions to give a smooth effect in divs*/
+.to_highlight { 
+    -moz-transition: all 0.5s linear; 
+  -webkit-transition: all 0.5s linear; 
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+
+/* apply this id to trigger highlight button  */
+#button_highlight {}
+
+/* this class will be aplied to all elements with .to_highlight class (and button too) */
+.highlight_on { background: #F50087 !important; }
+
+/* --- ONLY TO DEMO CSS ---------------------------------------------------------------------- */
+
+/* only a container */
+.container { width: 600px; }
+
+/* .box will apply to all boxes, no matter if it will be highlighted or not */
+.box { background: #f0f0f0; color: #999; font-family: arial; float: left; width: 190px; margin: 10px 10px 0 0; padding:10px 0; }
+
+/* class for button styling */
+.button { display:block; width:90px; margin: 20px auto; padding:10px 30px; background:#aaa; color:#fff; font-family: arial; text-decoration:none; }
