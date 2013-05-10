@@ -72,4 +72,4 @@ $(function() { $( "#button_highlight" ).click(function() {
 
 And, that's all... feel free to copy, fork, use in your projects, it's so simply than i'm not sure if you can call it copy at all!
 
-you can see a working demo in JSFiddle http://jsfiddle.net/aritz81/LLm2t/
+you can see a working demo in <a href="http://jsfiddle.net/aritz81/LLm2t/" target="_blank">JSFiddle</a> 
